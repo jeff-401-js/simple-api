@@ -17,26 +17,32 @@
       "name": "groceries3",
       "display_name": "groceries3",
       "description": "foods3"
+    },
+    {
+      "_id": 4
+    },
+    {
+      "_id": 5
     }
   ],
   "products": [
     {
       "_id": 1,
-      "category": 1,
+      "category": "groceries",
       "name": "apples",
       "display_name": "apples",
-      "description": "crunchy, juicy round fruits"     
+      "description": "crunchy, juicy round fruits"
     },
     {
       "_id": 2,
-      "category": 2,
+      "category": "groceries2",
       "name": "oranges",
       "display_name": "oranges",
-      "description": "orange, juicy round fruits"    
+      "description": "orange, juicy round fruits"
     },
     {
       "_id": 3,
-      "category": 2,
+      "category": "groceries3",
       "name": "satsuma",
       "display_name": "oranges",
       "description": "little orange, juicy round fruits"
