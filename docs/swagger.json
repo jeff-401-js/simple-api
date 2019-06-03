@@ -69,6 +69,13 @@
         "responses": {
           "200": {
             "description": "Returned a list of specified categories",
+              "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/put"
+                }
+              }
+            }
           }
         }
       },
@@ -99,6 +106,17 @@
         "example": [
           "{}",
           "{}"
+        ]
+      },
+      "put": {
+        "type": "object",
+        "example": [
+          {
+      "_id": 3,
+      "name": "groceries3",
+      "display_name": "groceries3",
+      "description": "foods3"
+          }
         ]
       }
     }
