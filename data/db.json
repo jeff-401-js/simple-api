@@ -12,7 +12,12 @@
       "display_name": "groceries2",
       "description": "foods2"
     },
-    {}
+    {
+      "_id": 3,
+      "name": "groceries3",
+      "display_name": "groceries3",
+      "description": "foods3"
+    }
   ],
   "products": [
     {

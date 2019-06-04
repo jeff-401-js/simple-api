@@ -97,6 +97,93 @@
           }
         }
       }
+    },
+    "/products": {
+      "get": {
+        "description": "Get all categories",
+        "responses": {
+          "200": {
+            "description": "Returned a list of categories",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/getAll"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Modifies the list of categories",
+          }
+        }
+      }
+    },
+    "/products/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+            },
+            "description": "Gets item based on id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned a list of specified categories",
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+            },
+            "description": "Gets item based on id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned a list of specified categories",
+              "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/put"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+            },
+            "description": "Gets item based on id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned a list of specified categories",
+          }
+        }
+      }
     }
   },
   "components": {
