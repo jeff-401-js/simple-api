@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "groceries",
+      "display_name": "groceries",
+      "description": "foods"
+    },
+    {
+      "_id": 2,
+      "name": "groceries2",
+      "display_name": "groceries2",
+      "description": "foods2"
+    },
+    {
+      "_id": 3,
+      "name": "groceries3",
+      "display_name": "groceries3",
+      "description": "foods3"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "groceries",
+      "name": "apples",
+      "display_name": "apples",
+      "description": "crunchy, juicy round fruits"
+    },
+    {
+      "_id": 2,
+      "category": "groceries2",
+      "name": "oranges",
+      "display_name": "oranges",
+      "description": "orange, juicy round fruits"
+    },
+    {
+      "_id": 3,
+      "category": "groceries3",
+      "name": "satsuma",
+      "display_name": "oranges",
+      "description": "little orange, juicy round fruits"
+    }
+  ]
+}
